@@ -9,10 +9,9 @@ public class PemilihanPercobaan121 {
 
         System.out.print("Masukkan angka: ");
         int angka = input21.nextInt();
+        String hasil;
 
-        if (angka % 2 == 0)
-            System.out.println("Angka " +angka+ " bilangan genap");
-        else
-            System.out.println("Angka " +angka+ " bilangan ganjil");
+        hasil = (angka % 2 == 0) ? "bilangan genap" : "bilangan ganjil";
+        System.out.println(angka + " adalah " + hasil);
     }
 }
