@@ -15,7 +15,7 @@ public class Anggaran {
         pengeluaran = input.nextDouble();
 
         // Menghitung sisa anggaran
-        sisaAnggaran = pendapatan - pengeluaran
+        sisaAnggaran = pendapatan - pengeluaran;
 
         // Menampilkan laporan anggaran
         System.out.println("\nLaporan Anggaran Perpustakaan Bulanan");
